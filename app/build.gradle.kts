@@ -60,12 +60,16 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
     implementation(libs.androidx.material.icons.extended)
-    implementation(libs.retrofit)
+
     implementation(libs.kotlinx.serialization.json)
-    implementation(libs.converter.kotlinx.serialization)
     implementation(libs.okhttp)
+    implementation(libs.converter.kotlinx.serialization)
+    implementation(libs.retrofit)
+    implementation(libs.coil.compose)
 
     testImplementation(libs.junit)
+    testImplementation(libs.kotlinx.coroutines.test)
+
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
