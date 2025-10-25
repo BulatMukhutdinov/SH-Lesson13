@@ -1,10 +1,10 @@
-    package tat.mukhutdinov.marsPhotos.fake
+package tat.mukhutdinov.marsPhotos.fake
 
-    import tat.mukhutdinov.marsPhotos.network.MarsApiService
-    import tat.mukhutdinov.marsPhotos.network.MarsPhoto
+import tat.mukhutdinov.marsPhotos.network.MarsApiService
+import tat.mukhutdinov.marsPhotos.network.MarsPhoto
 
-    class FakeMarsApiService : MarsApiService {
+class FakeMarsApiService : MarsApiService {
 
-        override suspend fun getPhotos(): List<MarsPhoto> =
-            FakeDataSource.photosList
-    }
+    override suspend fun getPhotos(): List<MarsPhoto> =
+        FakeDataSource.photosList
+}

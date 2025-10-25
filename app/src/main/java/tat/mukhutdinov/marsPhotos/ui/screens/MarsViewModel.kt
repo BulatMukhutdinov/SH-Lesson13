@@ -9,8 +9,6 @@ import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.AP
 import androidx.lifecycle.viewModelScope
 import androidx.lifecycle.viewmodel.initializer
 import androidx.lifecycle.viewmodel.viewModelFactory
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch
 import tat.mukhutdinov.marsPhotos.MarsPhotosApplication
 import tat.mukhutdinov.marsPhotos.data.MarsPhotosRepository

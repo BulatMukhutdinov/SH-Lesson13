@@ -1,5 +1,5 @@
 package tat.mukhutdinov.marsPhotos.data
 
-    interface AppContainer {
-        val marsPhotosRepository: MarsPhotosRepository
-    }
+interface AppContainer {
+    val marsPhotosRepository: MarsPhotosRepository
+}

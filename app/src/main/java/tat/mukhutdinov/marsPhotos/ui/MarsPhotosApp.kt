@@ -15,9 +15,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.input.nestedscroll.nestedScroll
 import androidx.compose.ui.res.stringResource
-import androidx.lifecycle.ViewModelProvider.AndroidViewModelFactory.Companion.APPLICATION_KEY
 import androidx.lifecycle.viewmodel.compose.viewModel
-import tat.mukhutdinov.marsPhotos.MarsPhotosApplication
 import tat.mukhutdinov.marsPhotos.R
 import tat.mukhutdinov.marsPhotos.ui.screens.HomeScreen
 import tat.mukhutdinov.marsPhotos.ui.screens.MarsViewModel
