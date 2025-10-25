@@ -6,11 +6,11 @@ plugins {
 }
 
 android {
-    namespace = "tat.mukhutdinov.marsPhotos"
+    namespace = "tat.mukhutdinov.amphibians"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "tat.mukhutdinov.marsphotos"
+        applicationId = "tat.mukhutdinov.amphibians"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -59,8 +59,6 @@ dependencies {
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
     implementation(libs.androidx.lifecycle.viewmodel.compose)
-    implementation(libs.androidx.material.icons.extended)
-
     implementation(libs.kotlinx.serialization.json)
     implementation(libs.okhttp)
     implementation(libs.converter.kotlinx.serialization)
@@ -68,8 +66,6 @@ dependencies {
     implementation(libs.coil.compose)
 
     testImplementation(libs.junit)
-    testImplementation(libs.kotlinx.coroutines.test)
-
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
     androidTestImplementation(platform(libs.androidx.compose.bom))
